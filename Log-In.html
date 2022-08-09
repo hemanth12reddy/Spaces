@@ -3,11 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Log-In</title>
+    <style media="screen">
+      fieldset {
+        background-color : #95E1D3
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicons/favicon.ico">
+
   </head>
   <body>
-    <a href="index.html"><h1>Spaces</h1></a>
 
-    <form class="" action="#" method="post">
+    <img src="images/2.jpg" class="space-image-index" alt="background=-mage">
+    <div class="indextop">
+        <a href="index.html" class="spaces">Spaces</a>
+        <div class="indextop-div"><a class="listelement1" href="#">About us</a></div>
+        <div class="indextop-div"><a class="listelement2" href="#">Contact us</a></div>
+        <div class="indextop-div"><a class="listelement3" href="#">Devloper</a></div>
+    </div>
+
+    <form class="form" action="home.html" method="post">
       <fieldset>
 
       <center>
@@ -21,9 +36,9 @@
           <td><input type="password" name="password" value=""required></td>
         </tr>
       </table>
-      <input type="submit" name="submit-Login" value="Log-In">
+      <input type="submit" class="submit" name="submit-Login" value="Log-In" >
       <br>
-      <p>having trouble? <a href="forget-password.html">forget password</a></p>
+      <p>having trouble? <a href="forget-password.html" class="hlink">forget password</a></p>
     </center>
   </fieldset>
     </form>
