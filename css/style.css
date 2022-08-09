@@ -1,0 +1,121 @@
+center{
+  background: 212121;
+  color: white;
+}
+fieldset{
+  background: #1B1B2F;
+}
+body{
+  background: #000000;
+  margin: 0;
+}
+tr{
+  height: 30px;
+}
+.form{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  right: 35%;
+}
+.hlink{
+  color: cyan;
+  padding-right: 5px;
+}
+.hlink:hover{
+  color: white;
+}
+.index-body{
+  text-align: center;
+}
+.indexdiv{
+  display: inline-block;
+
+  position: fixed;
+  left: 40%;
+  right: 40%;
+  top: 50%;
+  bottom: 40%;
+}
+.indextop{
+  margin: 0;
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  right: 5%;
+  top : 5%;
+}
+.indextop-div{
+  display: inline-block;
+  padding: 0 5% 0;
+}
+.listelement1:hover, .listelement2:hover, .listelement3:hover{
+  display: inline-block;
+  color: lightgreen;
+  font-size: 25px;
+
+}
+.listelement1, .listelement2, .listelement3{
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+}
+.menuindex{
+  padding-right: 5%;
+  align-items: flex-end;
+}
+.Sign-Up-Form{
+  margin: 0;
+}
+.space-image-index{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+.spaces {
+  color: white;
+  font-size: 50px;
+  padding-left: 5%;
+  position: fixed;
+  left: 10px;
+}
+.spaces:hover{
+  color: lightgreen;
+  font-style: normal;
+}
+.submit{
+  background: black;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  font: bold15px arial,sans-serif;
+  text-shadow: none;
+  margin: 5px;
+}
+.submit:hover{
+  background: white;
+  color: black;
+  border-style: outset;
+  border-color: #0066A2;
+  font: bold15px arial,sans-serif;
+  text-shadow: none;
+}
+.submit-index{
+  background: black;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2;
+  font: bold15px arial,sans-serif;
+  text-shadow: none;
+  padding: 10px;
+}
+.submit-index:hover{
+  background: white;
+  color: black;
+  border-style: outset;
+  border-color: #0066A2;
+  font: bold15px arial,sans-serif;
+  text-shadow: none;
+}
