@@ -1,7 +1,11 @@
 
 body{
+  padding: 0;
   margin: 0;
+  background-image: url('./images/2.jpg');
+  /* top: -5em; */
 }
+
 ul{
   list-style: none;
 }
@@ -11,73 +15,142 @@ div{
 li{
   padding: 7px
 }
-.body{
-  width: 92%;
-
-  position:absolute;
-  left: 8%;
-  top: 10%;
-  background-color: powderblue;
+.bg-image{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
-.Home{
+.body{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 5em;
+  margin-left: 8em;
+  height: auto;
+  z-index: -1;
+  opacity: 0.5;
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+
+}
+.dropdown-content table td:hover{
+  background-color: white;
+  color: black;
+}
+.dropdown-content table td{
+  text-decoration: none;
+  text-align: center;
+  /* margin: 0.1em; */
+  padding: 0;
+  width: 4em;
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
   position: absolute;
-  top: 10px;
-  left: 2%;
+  background-color: black;
+  color: white;
+  width: 4em;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
 }
 .Home-button
 {
-  font-size: 30px;
+  font-size: 2em;
   position: absolute;
-  top: 10px;
+  top: 0.7em;
 }
 .homelink{
   text-decoration: none;
   font-family: cursive;
-  font-size: 40px;
+  font-size: 3.25em;
   color: white;
+  position: absolute;
+  top: 0.1em;
+  left: 0.5em;
 }
 .menubar{
-  background-color: #001E6C;
-  width: 100%;
-  height: 10%;
+  /* display: none; */
+  width: 100vw;
+  height: 5em;
   margin: 0;
   position: fixed;
   top: 0;
+  border-style: none none outset;
+  background-color: black;
 }
-.menu-element{
-  font-size: 20px;
+.menu-element0, .menu-element1,.menu-element2,.menu-element3,.dropdown{
+  text-decoration: none;
+  font-size: 1.5em;
   display: inline-block;
   padding: 10px;
-}
-.menu-element0, .menu-element1,.menu-element2,.menu-element3{
-  text-decoration: none;
   font-family: cursive;
   color: white;
 }
 .menubar-tools{
   position: absolute;
-  right: 10px;
-  height: 50px;
+  right: 1em;
+  height: auto;
   margin: 0;
-  top: 15px;
+  top: 1em;
+  padding: 0;
+  width: auto;
+}
+.overlay{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.section{
+  width: 70vw;
+  background-color: grey;
+  opacity: 0.5;
+  height: 80vh;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5em;
+  margin-top: 5em;
+  z-index: -1;
+
 }
 .sidebar{
+  z-index: 1;
   margin: 0;
   position: fixed;
-  top: 10%;
-  background-color: #98BAE7;
-  height: 90%;
-  width: 8%
+  top: 5em;
+  color: white;
+  height: 100vh;
+  width: 8em;
+  border-style: none outset none none;
 }
+
 .sidebar a{
   display: list-item;
   text-decoration: none;
   text-align: center;
-  font-size: 15px;
-  padding: 5px 0;
+  font-size: 0.95em;
+  padding: 0.26em 0;
   font-family: cursive;
   color: white;
 }
 .sidebar a:hover{
-  color:black;
+  color:powderblue;
+}
+.sidebar-element{
+  border: 0.1em;
+  border-style: none none outset none;
+  padding: 0.5em 0;
 }

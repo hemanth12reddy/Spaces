@@ -1,9 +1,8 @@
-center{
-  background: 212121;
-  color: white;
-}
+
 fieldset{
   background: #1B1B2F;
+  border-radius: 2em;
+  opacity: 0.9;
 }
 body{
   background: #000000;
@@ -12,74 +11,108 @@ body{
 tr{
   height: 30px;
 }
+table{
+  text-align: right;
+}
+
 .form{
-  position: absolute;
-  top: 20%;
-  left: 35%;
-  right: 35%;
+  position: relative;
+  font-family: cursive;
+  font-size: 1em;
+  margin:auto;
+  color: white;
+  width: 34em;
+  height: auto;
+  top: 15em;
+}
+
+.form-header{
+  font-size: 2.5em;
+  font-family: cursive;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 .hlink{
   color: cyan;
   padding-right: 5px;
+  text-decoration: none;
 }
 .hlink:hover{
   color: white;
 }
 .index-body{
   text-align: center;
+  position: relative;
+
 }
 .indexdiv{
   display: inline-block;
-
-  position: fixed;
-  left: 40%;
-  right: 40%;
-  top: 50%;
-  bottom: 40%;
+  text-align: center;
+  padding: 4em 10em;
+  position: relative;
+  /* background-color: white; */
+  border-radius: 1em;
+  margin:auto;
+  max-width: 30em;
+  margin-top: 20em;
 }
 .indextop{
   margin: 0;
   display: inline-block;
-  width: 30%;
-  position: absolute;
-  right: 5%;
-  top : 5%;
+  width: auto;
+  position: fixed;
+  right:1.5em;
+  top :2.5em;
+  font-size: 1em;
+  font-family: cursive;
 }
 .indextop-div{
   display: inline-block;
-  padding: 0 5% 0;
+  padding: 0 0.9em 0;
+}
+.input-area{
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  width: 13em;
 }
 .listelement1:hover, .listelement2:hover, .listelement3:hover{
   display: inline-block;
   color: lightgreen;
-  font-size: 25px;
+  height: auto;
 
 }
 .listelement1, .listelement2, .listelement3{
   display: inline-block;
   color: white;
-  font-size: 20px;
-  height: 30px;
+  font-size: 1.25em;
+  height: auto;
+  text-decoration: none;
+
 }
 .menuindex{
-  padding-right: 5%;
+  padding-right: 0.9em;
   align-items: flex-end;
 }
 .Sign-Up-Form{
   margin: 0;
+  font-size: 1em;
+  font-family: cursive;
 }
 .space-image-index{
-  width: 100%;
-  height: 100%;
+  height: auto;
+  max-width: 100vw;
   position: fixed;
   right: 0;
 }
 .spaces {
   color: white;
-  font-size: 50px;
-  padding-left: 5%;
+  font-size: 3em;
+  padding-left: 0.9em;
   position: fixed;
-  left: 10px;
+  left: 0.6em;
+  text-decoration: none;
 }
 .spaces:hover{
   color: lightgreen;
@@ -110,12 +143,16 @@ tr{
   font: bold15px arial,sans-serif;
   text-shadow: none;
   padding: 10px;
+  border-radius: 0.3em;
+  margin: 0 0.3em;
 }
 .submit-index:hover{
   background: white;
   color: black;
+  /* border-radius: ; */
   border-style: outset;
   border-color: #0066A2;
   font: bold15px arial,sans-serif;
-  text-shadow: none;
+  text-shadow: none;border-radius: 0.3em;
+  margin: 0 0.3em;
 }
